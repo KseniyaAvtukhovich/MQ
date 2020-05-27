@@ -1,0 +1,463 @@
+body {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  min-width: 320px;
+  box-sizing: border-box;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	min-height: 100vh;
+	background-image: url(../images/football_767.jpg);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+header::before {
+  content: "";
+  background-color: #171f44;
+  opacity: 0.8;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.logo, .footer-logo-down {
+	max-width: 120px;
+    margin-top: 30px;
+	margin-bottom: 130px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+    z-index: 1;
+	
+}
+
+.logo-promo {
+	width: 100%;
+	font-size: 28px;
+	color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1; 
+    margin-bottom: 130px;   
+}
+
+.first-line {
+	margin-bottom: 30px;
+	margin-left: 20px;
+}
+
+.second-line {
+	margin-top: 0px;
+	margin-bottom: 60px;
+	margin-left: 65px;
+    width: 220px;
+}
+
+.apple-link, .google-link {
+    display: flex;
+    min-height: 35px;
+	width: 280px;
+    margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 13px;
+	margin-top: 20px;
+	background-color: #5e42b0;
+	border-radius: 17px;
+	position: relative;
+	z-index: 1;
+	align-items: center;
+	justify-content: center;
+
+
+}
+
+.links {
+	margin-left: 5px;
+}
+
+.apple-link:hover, .google-link:hover {
+    background-color: #000000;
+}
+
+.icon {
+	height: 20px;
+}
+
+.link-first-line, .link-second-line {
+	font-size: 10px;
+	text-transform: uppercase;
+	font-family: "DejaVu Sans", sans-serif;
+	color: #ffffff;
+	text-decoration: none;
+	margin-right: 2px;
+}
+
+
+.link-second-line {
+	font-weight: 700;
+	margin-top: 2px;
+}
+
+.section-title {
+	margin-left: 20px;
+	margin-bottom: 20px;
+	font-size: 50px;
+    color: #e7e7e7;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+
+.section-image {
+	width: 100%;
+	align-items: center;
+}
+
+.section-subtitle-one, .section-subtitle-two, .section-subtitle-three, .section-two-subtitle {
+	display: flex;
+	margin-left: 7px;
+	color: #c1c1c1;
+	font-size: 23px;
+    line-height: 34px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 50px;
+    
+}
+
+.first-main-section-text, .second-main-section-text, .third-main-section-text  {
+	max-width: 100%;
+    margin-left: 18px;
+    font-size: 15px;
+    color: #000000;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+.first-main-section-text, .second-main-section-text {
+	margin-bottom: 50px;
+}
+
+article {
+	max-width: 100%;
+	padding-bottom: 20px;
+}
+
+
+.article-header {
+	display: flex;
+	align-items: center;
+}
+
+.article-three {
+	background-color: #5e42b0;
+}
+
+.article-three-blue {
+  background-color: #090c35;
+}
+
+.article-three, .article-three-blue {
+	color: #ffffff;
+	font-family: "Open Sans", sans-serif;
+}
+
+
+.article-number-gray, .article-number-purple {
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+
+}
+
+.article-number-gray {
+  color: #5e42b0;
+}
+
+.article-number-purple {
+  color: #ffffff;
+}
+
+
+.article-number-gray::after, .article-number-purple::after {
+  content:"";
+  display: block;
+  align-items: center;
+  width: 14px;
+  height: 4px;
+  font-size: 14px;
+  margin-top: 1px;
+  margin-bottom: 0px;
+}
+
+.section-two {
+	margin-top: 0px;
+}
+
+.section-two > article {
+	position: relative;
+}
+
+.section-two-number-header, .section-two-number-header-three {
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    color: #f5f6f7;
+    background-color: #5e42b0;
+    z-index: 1;
+    position: absolute;
+    left: 20px;
+    bottom: 150px;
+}
+
+.second-section-article-number {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  z-index: 2;
+}
+
+.second-section-article-number::after{
+  content:"";
+  display: block;
+  z-index: 2;
+  background-color: #8f7bc8;
+  width: 15px;
+  height: 4px;
+  border-radius: 2px;
+  position: absolute;
+}
+
+.article-number-gray::after{
+  background-color: #5e42b0;	
+}
+
+
+.article-number-purple::after {
+  background-color: #ffffff;
+  font-weight: 700;
+}
+
+.third-main-section-text {
+  color: #ffffff;
+}
+
+.section-two-image {
+	width: 100%;
+}
+
+footer {
+    background-image: url(../images/game_767.jpg);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #000000;
+    position: relative;
+    margin-bottom: 0px;
+    height: 100vh;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 0px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+footer::before {
+  content: "";
+  background-color: #171f44;
+  opacity: 0.8;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.footer-logo {
+	width: 80px;
+    top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    background-color: #7453d3;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.footer-promo-one {
+  margin-top: 200px;
+  font-size: 32px;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0px;
+  position: relative;
+  z-index: 1;
+}
+
+.footer-promo-two {
+   font-size: 14px;
+   color: #9b8ec1;
+   font-family: "Open Sans", sans-serif;
+   text-transform: uppercase;
+   text-align: center;
+   margin-top: 0px;
+   position: relative;
+   z-index: 1;
+}
+
+.footer-logo-down {
+	margin-bottom: 0;
+		
+}
+
+@media (min-width: 641px) and (max-width: 960px) {
+	header {
+	background-image: url(../images/football_1280.jpg);	
+	}
+
+	.logo-promo {
+		font-size: 64px;
+	}
+    
+    .first-main-section-text, .second-main-section-text, .third-main-section-text {
+    	font-size: 24px;
+    }	
+
+    .section-subtitle-one, .section-subtitle-two, .section-subtitle-three {
+    	font-size: 32px;
+    }
+
+	footer {
+	background-image: url(../images/game_1280.jpg);
+    }
+
+    .footer-promo-one {
+    	font-size: 80px;
+    }
+
+    .footer-promo-two {
+    	font-size: 36px;
+    }
+
+    .button-links {
+    	margin-top: 150px;
+    }
+
+    .footer-logo-down {
+    	margin-top: 30px;
+    }
+}
+
+@media (min-width: 961px) and (max-width: 1920px) {
+	header {
+	background-image: url(../images/football_1920.jpg);	
+	}
+
+	.logo-promo {
+		font-size: 90px;
+	}
+
+	.section-title {
+		font-size: 80px;
+	}
+    
+    .first-main-section-text, .second-main-section-text, .third-main-section-text {
+    	font-size: 20px;
+    }	
+
+    .section-subtitle-one, .section-subtitle-two, .section-subtitle-three {
+    	font-size: 36px;
+    }
+
+	footer {
+	background-image: url(../images/game_1920.jpg);
+    }
+    
+    .section-two-article-one {
+    	display: flex;
+    	flex-direction: row;
+    }
+
+    .section-two-article-one:nth-child(2n) {
+    	flex-direction: row-reverse;
+    }
+
+    .section-two-article-text, .section-two-image { 
+        width: 50%;
+        box-sizing: border-box;
+        align-self: center;
+    }
+
+    .footer-promo-one {
+      font-size: 80px;
+    }
+
+    .footer-promo-two {
+    	font-size: 30px;
+    }
+
+    .button-links {
+    	margin-top: 100px;
+    }
+
+    .footer-logo-down {
+    	margin-top: 80px;
+    }
+}
+
+@media (min-width: 641px) {
+    .second-line {
+		width: 100%;
+	}
+
+    .button-links {
+    	display: flex;
+    	flex-direction: row;
+    }
+   
+   .apple-link {
+   	margin-right: 20px;
+   }
+
+   .google-link {
+   	margin-left: 0px;
+   }
+
+   .apple-link, .google-link {
+    width: 310px;
+    }
+
+   .section-two-subtitle {
+    font-size: 80px;
+    }
+	
+}
